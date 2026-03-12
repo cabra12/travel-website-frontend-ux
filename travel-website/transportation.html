@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transportation</title>
+    <link rel="stylesheet" href="style.css" >
+</head>
+<body>
+    <nav>
+        <div class="navbar-container">
+            <a href="index.html"><div id="logo">🏝️ T&#183;A&#183;N&#183;I&#183;T&#183;I</div></a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="accommodations.html">Accommodations</a></li>
+                <li><a href="activities.html">Activities</a></li>
+                <li><a href="transportation.html">Transportation</a></li>
+            </ul>
+            <a href="booking.html"><button class="cta-nav">Plan Your Trip</button></a>
+        </div>
+        <div class="hamburger">&#9776;</div>
+    </nav>
+
+    <section class="hero trans-hero">
+        <div class="home-hero-content">
+            <h1>Travel Made Simple in Taniti</h1>
+        </div>
+    </section>
+
+    <section class="page-content">
+        <h2>Arriving in Taniti</h2>
+        <p>You can travel to Taniti by cruise ship or by plane. Our airport is expanding to take in more travelers! Use the buttons below to book your ticket to our tropical paradise! The buttons below will go to third-party booking sites.</p>
+        <div class="button-trans-flex">
+            <button class="page-button">✈️ Book an Airplane &nearr;</button>
+            <button class="page-button">🛳️ Book a Cruise Ship &nearr;</button>
+        </div>
+
+        <h2>Local Transport</h2>
+        <p class="margin-p-el">There are many transportation options in Taniti. Rentals cars can be picked up from our local agency near the airport. Taxis are also widely available. Public buses run from 5 A.M. to 11 P.M. daily in Taniti City. <br><br>If preferred, bikes and helmets (required by law) are also available. For those who love to walk, our island is very pedestrian-friendly. Make sure to check out Merriton Landing, if you'd like to walk and do local activities!</p>
+
+        <div class="accommo-cards page-cards">
+            <img src="images/rental-car.jpg" alt="blue car against a white building with green doors and green window frames">
+            <div class="flex-accommo">
+                <h3 class="card-heading">Rental Cars</h3>
+                <p class="subtext">Our local rental companies are highly motivated to fit you with the newest cars that fit your style!</p>
+                <button class="page-button">Learn More &nearr;</button>
+                <p class="disclaimer">&#9432; Link to third-party booking site</p>
+            </div>
+        </div>
+
+        <div class="accommo-cards page-cards">
+            <img src="images/transport-shuttle.jpg" alt="two shuttle cars driving down a road with white buildings around them">
+            <div class="flex-accommo">
+                <h3 class="card-heading">Hotel Shuttles</h3>
+                <p class="subtext">Hotels will provide you with information about shuttles during your stay.</p>
+                <button class="page-button">Learn More &nearr;</button>
+                <p class="disclaimer">&#9432; Link to third-party booking site</p>
+            </div>
+        </div>
+
+        <div class="accommo-cards page-cards">
+            <img src="images/bus-transport.jpg" alt="people on red and yellow bus smiling and waving from inside the bus">
+            <div class="flex-accommo">
+                <h3 class="card-heading">Public Transportation</h3>
+                <p class="subtext">Find schedules, fare information, and routes for all island bus services by using the button below. Public buses run from 5 A.M. to 11 P.M. daily in Taniti City.</p>
+                <button class="page-button">Learn More &nearr;</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            
+            <div class="column">
+                <div id="logo">🏝️ T&#183;A&#183;N&#183;I&#183;T&#183;I</div>
+            </div>
+            <div class="column">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="accommodations.html">Accommodations</a></li>
+                    <li><a href="activities.html">Activities</a></li>
+                    <li><a href="transportation.html">Transportation</a></li>
+                    <li><a href="booking.html">Plan Your Trip!</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <h3>Contact Us</h3>
+                <p class="footer-margin">
+                    Taniti Tourism Bureau<br>
+                    123 Harbor Street<br>
+                    Taniti City, Taniti 96750
+                </p>
+                <p class="footer-margin">
+                    Email: <a href="#">tourism@taniti.gov</a>
+                </p>
+                <p class="footer-margin">
+                    Phone: +1 (808) 555-0123
+                </p>
+            </div>
+            <div class="column">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">TikTok</a></li>
+                    <li><a href="#">X(Twitter)</a></li>
+                    <li><a href="#">Youtube</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const navBarContainer = document.querySelector('.navbar-container');
+
+        hamburger.addEventListener('click', () => {
+            navBarContainer.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

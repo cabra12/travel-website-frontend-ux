@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" >
+    <title>Taniti Accommodations</title>
+</head>
+<body>
+    <nav>
+        <div class="navbar-container">
+            <a href="index.html"><div id="logo">🏝️ T&#183;A&#183;N&#183;I&#183;T&#183;I</div></a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="accommodations.html">Accommodations</a></li>
+                <li><a href="activities.html">Activities</a></li>
+                <li><a href="transportation.html">Transportation</a></li>
+            </ul>
+            <a href="booking.html"><button class="cta-nav">Plan Your Trip</button></a>
+        </div>
+
+        <div class="hamburger">&#9776;</div>
+    </nav>
+
+    <section class="hero accommo-hero">
+        <div class="home-hero-content">
+            <h1>Where Comfort Meets Island Life</h1>
+        </div>
+    </section>
+
+    <section class="page-content">
+        <h2>Accommodations</h2>
+
+        <div class="accommo-cards page-cards">
+            <img src="images/accommo-bb.jpg" alt="photo of a room with a bed and a window with sunglight streaming in">
+            <div class="flex-accommo">
+                <h3 class="card-heading">Bed and Breakfast</h3>
+                <p class="subheading">From $150 per night</p>
+                <p class="subtext">Our island features family-run B&Bs with a cozy atmosphere and homemade local flavors</p>
+                <button class="page-button">Learn More &nearr;</button>
+                <p class="disclaimer">&#9432; Link to third-party booking site</p>
+            </div>
+        </div>
+
+        <div class="accommo-cards page-cards">
+            <img src="images/accommo-hotel.jpg" alt="photo of a room with a bed and a window with sunglight streaming in">
+            <div class="flex-accommo">
+                <h3 class="card-heading">Hotels</h3>
+                <p class="subheading">From $230 per night</p>
+                <p class="subtext">Stay in our hotels to experience the amazing amenities, ocean views, and access to Taniti's local attractions</p>
+                <button class="page-button">Learn More &nearr;</button>
+                <p class="disclaimer">&#9432; Link to third-party booking site</p>
+            </div>
+        </div>
+
+
+        <div class="accommo-cards page-cards">
+            <img src="images/accommo-beach-house.jpg" alt="photo of a room with a bed and a window with sunglight streaming in">
+            <div class="flex-accommo">
+                <h3 class="card-heading">Beach House</h3>
+                <p class="subheading">From $500 per night</p>
+                <p class="subtext">Our beach houses are the perfect space for those seeking privacy and their perfect slice of paradise</p>
+                <button class="page-button">Learn More &nearr;</button>
+                <p class="disclaimer">&#9432; Link to third-party booking site</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            
+            <div class="column">
+                <div id="logo">🏝️ T&#183;A&#183;N&#183;I&#183;T&#183;I</div>
+            </div>
+            <div class="column">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="accommodations.html">Accommodations</a></li>
+                    <li><a href="activities.html">Activities</a></li>
+                    <li><a href="transportation.html">Transportation</a></li>
+                    <li><a href="booking.html">Plan Your Trip!</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <h3>Contact Us</h3>
+                <p class="footer-margin">
+                    Taniti Tourism Bureau<br>
+                    123 Harbor Street<br>
+                    Taniti City, Taniti 96750
+                </p>
+                <p class="footer-margin">
+                    Email: <a href="#">tourism@taniti.gov</a>
+                </p>
+                <p class="footer-margin">
+                    Phone: +1 (808) 555-0123
+                </p>
+            </div>
+            <div class="column">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">TikTok</a></li>
+                    <li><a href="#">X(Twitter)</a></li>
+                    <li><a href="#">Youtube</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const navBarContainer = document.querySelector('.navbar-container');
+
+        hamburger.addEventListener('click', () => {
+            navBarContainer.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
