@@ -1,6 +1,6 @@
 # Travel Website Project
 
-A travel website designed to increase tourism to the fictional island of Taniti. Built as a UX design project focused on user experience and conversion. All photos used came from Unsplash.
+A fully responsive travel website built with HTML, CSS, and JavaScript. The focus of this project was on responsive design using CSS Grid, media queries, and clamp() for a fluid UI across desktop, tablet, and mobile interfaces. Includes animated cards and a simulated form submission. All photos used came from Unsplash.
 
 ## Live Demo
 [View Site](https://cabra12.github.io/travel-website-frontend-ux/)
